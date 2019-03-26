@@ -42,8 +42,7 @@ export default class Local extends Component {
           </li>
           <li>
             <span>
-              <img src="https://laiyuze.oss-cn-hangzhou.aliyuncs.com/IMG_6844.GIF
-" alt="" />
+              <img src="https://laiyuze.oss-cn-hangzhou.aliyuncs.com/IMG_6844.GIF" alt="" />
               &nbsp;&nbsp;
               One more time, One more Chance
             </span>
