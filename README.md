@@ -5,7 +5,7 @@
 - 启动调试服务: `npm start`
 - 构建 dist: `npm run build`
 
-## 目录结构
+<!-- ## 目录结构
 
 - react-router @4.x 默认采用 hashHistory 的单页应用
 - 入口文件: `src/index.js`
@@ -18,4 +18,4 @@
 
 ## 效果图
 
-![screenshot](https://img.alicdn.com/tfs/TB13AFlH6TpK1RjSZKPXXa3UpXa-2860-1580.png)
+![screenshot](https://img.alicdn.com/tfs/TB13AFlH6TpK1RjSZKPXXa3UpXa-2860-1580.png) -->
