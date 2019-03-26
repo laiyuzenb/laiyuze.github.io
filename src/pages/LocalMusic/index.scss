@@ -1,0 +1,138 @@
+.localMusic {
+  height: 100%;
+  padding: 20px 40px;
+  background: #262626;
+  &-topInfo {
+    height: 100px;
+    display: flex;
+    &-img {
+      min-width: 80px;
+      height: 80px;
+      border-radius: 4px;
+      margin-right: 20px;
+    }
+    &-right {
+      width: 100%;
+      .localMusic-topInfo-text {
+        font-size: 28px;
+        line-height: 55px;
+        color: white;
+      }
+      ul {
+        height: 27px;
+        color: white;
+        border-bottom: 1px solid #ccc;
+      }
+      ul li {
+        float: left;
+        margin-right: 40px;
+        line-height: 26px;
+      }
+      li:nth-of-type(1) {
+        color: #ec512c;
+        border-bottom: 2px solid #ec512c;
+      }
+    }
+  }
+  .localMusic-toolBar {
+    display: flex;
+    align-items: center;
+
+    &-btn:nth-of-type(1) {
+      width: 105px;
+      height: 30px;
+      color: white;
+      background: #ec512c;
+      border-color: transparent;
+    }
+    &-btn:nth-of-type(2) {
+      color: #7c7c7c;
+      width: 105px;
+      height: 30px;
+      margin-left: 15px;
+      color: white;
+      border-color: transparent;
+      background-color: #4d4d4d;
+    }
+    &-btn:nth-of-type(3) {
+      color: #7c7c7c;
+      width: 105px;
+      height: 30px;
+      margin-left: 15px;
+      color: white;
+      border-color: transparent;
+      background-color: #4d4d4d;
+    }
+    &-inp {
+      width: 125px;
+      margin-left: 105px;
+      background-color: transparent;
+      border-color: #4d4d4d;
+    }
+    &-btn:nth-of-type(4) {
+      margin-left: 18px;
+      background-color: #ec512c;
+      border: none;
+    }
+    &-btn:nth-of-type(5) {
+      margin-left: 2px;
+      background-color: #4d4d4d;
+      border: none;
+    }
+    &-btn:nth-of-type(6) {
+      margin-left: 2px;
+      background-color: #4d4d4d;
+      border: none;
+    }
+  }
+}
+.musicList {
+  margin-top: 30px;
+  width: 100%;
+  li {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+  }
+  li span {
+    height: 40px;
+    overflow: hidden;
+  }
+  span img {
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+  }
+  li:nth-of-type(1) span {
+    color: #999;
+  }
+  li:nth-of-type(2) span {
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  li span:nth-of-type(1) {
+    display: block;
+    width: 255px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  li span:nth-of-type(2) {
+    margin-left: 10px;
+    width: 170px;
+    overflow: hidden;
+  }
+  li span:nth-of-type(3) {
+    display: block;
+    width: 180px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  li span:nth-of-type(4) {
+    margin-left: 20px;
+  }
+}

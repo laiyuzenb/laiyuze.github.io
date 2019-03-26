@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect, Switch, Route } from 'react-router-dom';
 import routerConfig from '../../routerConfig';
-import Guide from '../../components/Guide';
+import Not from '../../pages/NotFound'
 
 class MainRoutes extends Component {
   /**
@@ -25,10 +25,10 @@ class MainRoutes extends Component {
         {routerConfig.map(this.renderNormalRoute)}
 
         {/* 首页默认重定向到 /dashboard */}
-        <Redirect exact from="/" to="/dashboard" />
+        <Redirect exact from="/" to="/main/local" />
 
         {/* 未匹配到的路由重定向到 <Guide> 组件，实际情况应该重定向到 404 */}
-        <Route component={Guide} />
+        <Route component={Not} />
       </Switch>
     );
   }
