@@ -1,0 +1,103 @@
+.layout-footer {
+  width: 100%;
+  height: 70px;
+  background-color: #313131;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  &-left {
+    display: flex;
+    width: 415px;
+    height: 70px;
+    align-items: center;
+  }
+  &-right {
+    display: flex;
+    height: 70px;
+    align-items: center;
+  }
+  &-img img {
+    width: 70px;
+    height: 70px;
+    border-bottom-left-radius: 5px;
+  }
+
+  &-info {
+    max-width: 200px;
+    padding: 20px 8px;
+    div {
+      max-width: 200px;
+      height: 20px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
+  &-info div:nth-of-type(1) {
+    color: white;
+  }
+  &-info div:nth-of-type(2) {
+    color: #666;
+  }
+  &-lv {
+    margin-left: 17px;
+    width: 35px;
+    height: 15px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+  }
+  &-Collection {
+    font-size: 14px;
+    margin-left: 22px;
+    color: white;
+  }
+  &-mennu {
+    font-size: 16px;
+    margin-left: 25px;
+    color: white;
+  }
+  &-rewindDown {
+    margin-left: -5px;
+    color: white;
+    font-size: 25px;
+  }
+  &-play {
+    margin-left: 20px;
+    font-size: 35px;
+    color: white;
+  }
+  &-fastForward {
+    margin-left: 15px;
+    color: white;
+    font-size: 25px;
+  }
+  &-loudness {
+    margin-left: 130px;
+    color: white;
+  }
+  &-progress {
+    width: 80px;
+    margin-left: 5px;
+    padding-bottom: 3px;
+  }
+  &-model {
+    margin-left: 20px;
+    color: white;
+  }
+  &-effects {
+    margin-left: 25px;
+    color: white;
+  }
+  &-lyric {
+    margin-left: 25px;
+    color: white;
+  }
+  &-playList {
+    margin-left: 25px;
+    color: white;
+  }
+}

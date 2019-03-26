@@ -1,0 +1,125 @@
+.layout-home {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  .layout-home_left {
+    width: 175px;
+    background-color: #2e3238;
+    border-top-left-radius: 5px;
+    .left-btn-item {
+      height: 30px;
+      margin-left: 15px;
+      display: flex;
+      div {
+        width: 12px;
+        height: 12px;
+        margin-top: 10px;
+        border-radius: 6px;
+      }
+    }
+    .musicLib {
+      margin-top: 25px;
+      margin-left: 20px;
+      color: #999998;
+    }
+    ul {
+      margin-top: 8px;
+      li {
+        margin-top: 5px;
+        border-radius: 2px;
+        margin-left: 8px;
+        width: 160px;
+        height: 32px;
+        line-height: 32px;
+        color: white;
+        font-size: 12px;
+        .li-icon {
+          margin-left: 20px;
+          font-size: 14px;
+        }
+        .li-span {
+          margin-left: 11px;
+
+          font-weight: 100;
+        }
+      }
+    }
+    .myMusic {
+      margin-top: 15px;
+      margin-left: 20px;
+      color: #999998;
+    }
+  }
+  .layout-home_right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    .layout-home_header {
+      display: flex;
+      height: 80px;
+      background-color: #303030;
+      border-top-right-radius: 5px;
+      .header-right {
+        width: 205px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        color: white;
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 15px;
+        }
+        div {
+          font-size: 12px;
+          padding: 0 15px;
+          border-right: 1px solid white;
+        }
+        .header-set {
+          margin-left: 24px;
+        }
+        .header-out {
+          margin-left: 25px;
+          font-size: 16px;
+        }
+      }
+      .header-left {
+        flex: 1;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        color: white;
+        .header-left-arrow {
+          margin-left: 20px;
+        }
+        .header-right-arrow {
+          margin-left: 25px;
+        }
+        .header-left-sync {
+          margin: 0 22px;
+        }
+        .header-search-box {
+          width: 265px;
+          height: 30px;
+          border-radius: 15px;
+          background: #3a3a3a;
+          display: flex;
+          align-items: center;
+          .header-search-iconSearch {
+            margin-left: 20px;
+            color: #ccc;
+          }
+          .header-search-input {
+            width: 200px;
+            margin-left: 5px;
+            background-color: transparent !important;
+            border: none;
+          }
+        }
+      }
+    }
+    .layout-home_main {
+      flex: 1;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import "~antd/dist/antd.css";
+
+html,
+body,
+#ice-container {
+  width: 100%;
+  height: 100%;
+}
+
+#ice-container {
+  display: flex;
+  justify-content: center;
+  align-items: Center;
+}
+.layout-range {
+  width: 945px;
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+  .layout-content {
+    width: 100%;
+    flex: 1;
+  }
+}
+.bg-red {
+  background-color: #ec512c;
+}
+.ant-table-row {
+  border: none !important;
+  border-color: transparent !important;
+}
+.ant-table-row-level-0 {
+  border: none !important;
+  border-color: transparent !important;
+}

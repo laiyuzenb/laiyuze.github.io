@@ -16,6 +16,7 @@
   "dependencies": {
     "@alifd/next": "^1.x",
     "@icedesign/theme": "^0.1.2",
+    "antd": "^3.13.6",
     "moment": "^2.23.0",
     "prop-types": "^15.5.8",
     "react": "^16.4.1",

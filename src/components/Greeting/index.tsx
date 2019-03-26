@@ -7,7 +7,7 @@ export interface Props {
 const Greeting = ({ name }: Props) => {
   return (
     <div style={{ textAlign: 'center', fontSize: '40px', fontWeight: 'bold' }}>
-      Hello, {name}
+      {/* Hello, {name} */}
     </div>
   );
 };
