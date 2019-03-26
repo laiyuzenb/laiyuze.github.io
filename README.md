@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width" />
   <title>ICE TypeScript Starter</title>
   <link rel="shortcut icon" href="./favicon.png">
-  <link href="./css/index.css" rel="stylesheet">
+  <link href="https://laiyuze.oss-cn-hangzhou.aliyuncs.com/css/index.css
+" rel="stylesheet">
 </head>
 
 <body>
