@@ -1,5 +1,14 @@
 @import "~antd/dist/antd.css";
 
+@import "{{ site.theme }}";
+ 
+ 
+ 
+h1 {
+ 
+display: none;
+ 
+
 html,
 body,
 #ice-container {
