@@ -1,21 +1,19 @@
-# ice-typescript-starter
+<!DOCTYPE html>
+<html>
 
-## 使用
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width" />
+  <title>ICE TypeScript Starter</title>
+  <link rel="shortcut icon" href="./favicon.png">
+  <link href="./css/index.css" rel="stylesheet">
+</head>
 
-- 启动调试服务: `npm start`
-- 构建 dist: `npm run build`
+<body>
+  <div id="ice-container"></div>
+  <!-- <script type="text/javascript" src="./js/index.js"></script> -->
+  <script type="text/javascript" src="https://laiyuze.oss-cn-hangzhou.aliyuncs.com/js/index.js"></script>
+</body>
 
-<!-- ## 目录结构
-
-- react-router @4.x 默认采用 hashHistory 的单页应用
-- 入口文件: `src/index.js`
-- 导航配置: `src/menuConfig.js`
-- 路由配置: `src/routerConfig.js`
-- 路由入口: `src/router.jsx`
-- 布局文件: `src/layouts`
-- 通用组件: `src/components`
-- 页面文件: `src/pages`
-
-## 效果图
-
-![screenshot](https://img.alicdn.com/tfs/TB13AFlH6TpK1RjSZKPXXa3UpXa-2860-1580.png) -->
+</html>
