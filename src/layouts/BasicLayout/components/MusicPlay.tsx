@@ -8,7 +8,8 @@ export default class MusicPlay extends Component {
       <footer className="layout-footer">
         <div className="layout-footer-left">
           <div className="layout-footer-img">
-            <img src="../public/IMG_6844.GIF" alt="" />
+            <img src="https://laiyuze.oss-cn-hangzhou.aliyuncs.com/IMG_6844.GIF
+" alt="" />
           </div>
           <div className="layout-footer-info">
             <div>One more time, One more chance</div>

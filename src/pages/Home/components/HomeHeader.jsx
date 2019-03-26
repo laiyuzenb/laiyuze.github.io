@@ -19,7 +19,9 @@ export default class HomeHeader extends Component {
           </div>
         </div>
         <div className="header-right">
-          <img src="../public/IMG_6844.GIF" alt="" />
+          <img src="https://laiyuze.oss-cn-hangzhou.aliyuncs.com/IMG_6844.GIF"
+            alt=""
+          />
           <div className="header-name">赖雨泽</div>
           <Icon type="setting" className="header-set" />
           <Icon type="wallet" className="header-out" />

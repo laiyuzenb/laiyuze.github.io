@@ -9,7 +9,8 @@ export default class Local extends Component {
     return (
       <div className="localMusic">
         <div className="localMusic-topInfo">
-          <img className="localMusic-topInfo-img" src="../public/IMG_6844.GIF" />
+          <img className="localMusic-topInfo-img" src="https://laiyuze.oss-cn-hangzhou.aliyuncs.com/IMG_6844.GIF
+" />
           <div className="localMusic-topInfo-right">
             <div className="localMusic-topInfo-text">
               本地音乐
@@ -41,7 +42,8 @@ export default class Local extends Component {
           </li>
           <li>
             <span>
-              <img src="../public/IMG_6844.GIF" alt="" />
+              <img src="https://laiyuze.oss-cn-hangzhou.aliyuncs.com/IMG_6844.GIF
+" alt="" />
               &nbsp;&nbsp;
               One more time, One more Chance
             </span>
