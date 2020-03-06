@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Redirect, Switch, Route } from 'react-router-dom';
 import routerConfig from '../../routerConfig';
 import Not from '../../pages/NotFound'
-
+// 
 class MainRoutes extends Component {
   /**
    * 渲染路由组件
